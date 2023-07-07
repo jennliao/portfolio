@@ -1,0 +1,38 @@
+.oProjects {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.oProjects .oProjectTitle {
+
+    font-size: 60px;
+}
+
+.oProjectList {
+    width: 70vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.project img {
+    max-height: 100%;
+}
+
+@media only screen and (max-width: 1300px) {
+    .oProjectList {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .oProjectList {
+        grid-template-columns: 1fr;
+    }
+}

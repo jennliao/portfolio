@@ -1,0 +1,63 @@
+.about {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding-bottom: 25vh;
+}
+  
+.aboutTop {
+    width: 100%;
+    min-height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+  
+.aboutBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    min-height: max-content;
+
+}
+
+.aboutBottom .content {
+    margin-left: 5%;
+}
+
+.aboutBottom .portraitImage img {
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.aboutBottom p {
+    font-size: 16px;
+    width: auto;
+    max-width: 93%;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.aboutBottom a {
+    color: rgb(76, 97, 154);
+}
+
+.aboutBottom .persText {
+    margin-bottom: 10px;
+}
+  
+.about .aboutBottom h1 {
+    font-weight: 400;
+    font-size: 70px;
+    color: black;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-40px);
+}
